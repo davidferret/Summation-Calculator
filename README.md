@@ -1,13 +1,11 @@
 # Summation Calculator
 
-This program calculates the sum of all numbers between a given range and provides an option to save the results to a file.
+This project calculates the sum of all numbers within a specified range and provides the option to save the results to a file. It ensures the input values are valid and allows multiple calculations in a single session.
+The way I programmed this project was by setting up a simple loop to iterate through the range of numbers, summing them efficiently. Input validation was key to making sure the starting number is always less than the ending number. I also included an option to save the results to a text file, which required handling file operations carefully to store the computed sum in a structured format.
 
-- **Range-Based Summation**: Computes the sum of numbers between two user-defined values.
-- **Input Validation**: Ensures the ending number is greater than the starting number.
-- **Result Storage**: Saves summation results to a text file.
-- **User-Friendly Interface**: Guides users through multiple calculations.
+I built this project because I wanted to practice handling numerical operations and user input validation in a way that felt interactive. It was a fun challenge to ensure accuracy and efficiency while keeping the interface easy to use. Hopefully, it makes summation tasks quick and hassle-free for you.
 
-## Example Usage
+## Example Output
 ```
 --- Summation Calculator ---
 Enter the starting number (a): 5
